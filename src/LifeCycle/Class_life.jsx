@@ -14,7 +14,9 @@ export default class Class_life extends Component {
   componentDidUpdate(){
     console.log("DidUpdate")
 }
-
+  componentDidMount(){
+    console.log("DidMount")
+  }
   render() {
     return (
       <div className="container">
